@@ -1,0 +1,12 @@
+:not(input)
+{
+    background-color: green;
+}
+#color
+{
+    color: #ff0000;
+}
+*
+{
+    text-align: center;
+}
