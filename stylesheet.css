@@ -10,3 +10,11 @@ div
     background-color:red;
     display: block;
 }
+#magic
+{
+    color:blue;
+}
+div p
+{
+    text-align: center;
+}
