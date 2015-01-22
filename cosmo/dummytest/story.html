@@ -2,10 +2,10 @@
 <html style="height: 100%;">
 <head>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
-<!-- Created using Articulate Storyline 2.3 - http://www.articulate.com  --> 
-<!-- version: 2.3.1412.922 --> 
+<!-- Created using Articulate Storyline 2.4 - http://www.articulate.com  --> 
+<!-- version: 2.4.1501.717 --> 
 
-<title>Cadet Master Exam</title>
+<title>Bogus Test for Web</title>
 <style>
 body { margin: 0px; } 
 object {outline: none;}
@@ -44,8 +44,8 @@ var g_bLMS = false;
 var g_bTinCan = false;
 var g_bAOSupport = false;
 var g_bWarnOnCommitFail = false;
-var g_bUseHtml5 = false && g_bHtml5Supported;
-var g_bUseMobilePlayer = false;
+var g_bUseHtml5 = true && g_bHtml5Supported;
+var g_bUseMobilePlayer = true;
 var g_biOS = (navigator.userAgent.indexOf("AppleWebKit/") > -1 && navigator.userAgent.indexOf("Mobile/") > -1);
 var g_biPad = (navigator.userAgent.indexOf("iPad") > -1);
 var g_bAndroid = (navigator.userAgent.indexOf("Android") > -1);
@@ -100,12 +100,12 @@ else if (g_bRedirectHTML5)
 }
 
 var g_strContentFolder = "story_content";
-var g_bProjector = true;
+var g_bProjector = false;
 var g_strSwfFile = "story.swf";
 var g_nWidth = 740;
 var g_nHeight = 634;
 var g_strScale = "noscale";	// noscale | show all
-var g_strBrowserSize = "default";	// default, fullscreen, optimal
+var g_strBrowserSize = "optimal";	// default, fullscreen, optimal
 var g_strBgColor = "#FFFFFF";
 var g_strAlign = "middle";
 var g_strQuality = "best";
@@ -121,7 +121,7 @@ if (g_strScale == "show all")
 
 </script>
 
-
+<script SRC="story_content/user.js" TYPE="text/javascript"></script>
 <script src="story_content/story.js" type="text/javascript"></script>
 
 </head>
