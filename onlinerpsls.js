@@ -1,5 +1,6 @@
 var rpsls = function()
 { 
+var wins = 0;
 var userChoice = prompt("Do you choose rock, paper, scissors, lizard, or spock?").toLowerCase();
 var computerChoice = Math.random();
 if (computerChoice < 0.2) {
@@ -25,10 +26,14 @@ var compare = function(choice1, choice2){
 else if (choice1 === "rock") {
     if (choice2 === "scissors") {
         alert("Rock crushes scissors. You win!");
+        wins = wins + 1;
+        console.log("You've won " + wins + " games.");
     } else if (choice2 === "paper") {
         alert("Paper covers rock. You lose!");
     } else if (choice2 === "lizard") {
         alert("Rock crushes lizard. You win!");
+        wins = wins + 1;
+        console.log("You've won " + wins + " games.");
     } else {
         alert("Spock vaporizes rock. You lose.");
     }
@@ -40,10 +45,14 @@ else if (choice1 === "paper") {
         alert("Scissors cuts paper. You lose!");
     } else if (choice2 === "rock") {
         alert("Paper covers rock. You win!");
+        wins = wins + 1;
+        console.log("You've won " + wins + " games.");
     } else if (choice2 === "lizard") {
         alert("Lizard eats paper. You lose.");
     } else {
         alert("Paper disproves spock. You win!");
+        wins = wins + 1;
+        console.log("You've won " + wins + " games.");
     }
 }
 
@@ -51,10 +60,14 @@ else if (choice1 === "paper") {
 else if (choice1 === "scissors") {
     if (choice2 === "paper") {
         alert("Scissors cuts paper. You win!");
+        wins = wins + 1;
+        console.log("You've won " + wins + " games.");
     } else if (choice2 === "rock") {
         alert("Rock crushes scissors. You lose.");
     } else if (choice2 === "lizard") {
         alert("Scissors decapitates lizard. You win!");
+        wins = wins + 1;
+        console.log("You've won " + wins + " games.");
     } else {
         alert("Spock smashes scissors. You lose.");
     }
@@ -68,8 +81,12 @@ else if (choice1 === "lizard") {
         alert("Rock crushes lizard. You lose.");
     } else if (choice2 === "paper") {
         alert("Lizard eats paper. You win!");
+        wins = wins + 1;
+        console.log("You've won " + wins + " games.");
     } else {
         alert("Lizard poisons spock. You win!");
+        wins = wins + 1;
+        console.log("You've won " + wins + " games.");
     }
 }
 
@@ -77,8 +94,12 @@ else if (choice1 === "lizard") {
 else if (choice1 === "spock") {
     if (choice2 === "scissors") {
         alert("Spock smashes scissors. You win!");
+        wins = wins + 1;
+        console.log("You've won " + wins + " games.");
     } else if (choice2 === "rock") {
         alert("Spock vaporizes rock. You win!");
+        wins = wins + 1;
+        console.log("You've won " + wins + " games.");
     } else if (choice2 === "lizard") {
         alert("Lizard poisons spock. You lose.");
     } else {
@@ -112,6 +133,12 @@ else if (choice1 === "rick astley")
     alert ("never gonna give you up, never gonna let you down, only gonna tell you to CHOOSE AGAIN");
 }
 
+//tally addon
+
+else if (choice1 === "tally")
+{
+    alert ("You've won " + wins + " games.");
+}
 // else
 else
 {
