@@ -44,8 +44,8 @@ var g_bLMS = false;
 var g_bTinCan = false;
 var g_bAOSupport = false;
 var g_bWarnOnCommitFail = false;
-var g_bUseHtml5 = false && g_bHtml5Supported;
-var g_bUseMobilePlayer = false;
+var g_bUseHtml5 = true && g_bHtml5Supported;
+var g_bUseMobilePlayer = true;
 var g_biOS = (navigator.userAgent.indexOf("AppleWebKit/") > -1 && navigator.userAgent.indexOf("Mobile/") > -1);
 var g_biPad = (navigator.userAgent.indexOf("iPad") > -1);
 var g_bAndroid = (navigator.userAgent.indexOf("Android") > -1);
@@ -100,7 +100,7 @@ else if (g_bRedirectHTML5)
 }
 
 var g_strContentFolder = "story_content";
-var g_bProjector = true;
+var g_bProjector = false;
 var g_strSwfFile = "story.swf";
 var g_nWidth = 740;
 var g_nHeight = 658;
@@ -121,7 +121,7 @@ if (g_strScale == "show all")
 
 </script>
 
-
+<script SRC="story_content/user.js" TYPE="text/javascript"></script>
 <script src="story_content/story.js" type="text/javascript"></script>
 
 </head>
