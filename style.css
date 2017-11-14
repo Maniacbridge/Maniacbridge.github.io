@@ -19,4 +19,7 @@ body {
   border-radius: 5px;
   float: top;
   border-color: #ffffff;
+  height: 300px;
+  width: 300px;
+  padding: 20px 50px;
 }
