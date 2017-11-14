@@ -19,5 +19,5 @@ function hitrate(){
   topEdit(yeet);
 }
 function topEdit(text){
-  div.getElementById(topbox).innerHTML = text;
+  document.getElementById("topbox").innerHTML = text;
 }
