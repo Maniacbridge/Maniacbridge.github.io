@@ -5,6 +5,12 @@
     font-weight: normal;
     font-style: normal;
 }
-*{
+* {
   font-family: 'press_startregular';
+}
+body {
+  background-color: #000000;
+}
+.text {
+  color: #ffffff;
 }
