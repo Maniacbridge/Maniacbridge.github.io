@@ -14,3 +14,8 @@ body {
 .text {
   color: #ffffff;
 }
+#topbox{
+  border: solid;
+  border-radius: 5px;
+  float: top;
+}
