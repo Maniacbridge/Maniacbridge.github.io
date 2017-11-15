@@ -14,7 +14,6 @@ body {
 }
 .text {
   color: #ffffff;
-  display: inline;
 }
 #topbox{
   border: solid;
@@ -22,6 +21,6 @@ body {
   float: top;
   border-color: #ffffff;
   height: 25%;
-  width: 100%;
+  width: 80%%;
   padding: 20px 50px;
 }
