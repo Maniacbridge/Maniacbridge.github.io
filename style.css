@@ -21,5 +21,6 @@ body {
   border-radius: 5px;
   float: top;
   border-color: #ffffff;
-  padding: 20px 20px 20px 20px;
+  padding: 20px 20px 20px 50px;
+  width: 95%;
 }
