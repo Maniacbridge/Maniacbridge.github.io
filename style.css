@@ -14,11 +14,12 @@ body {
 }
 .text {
   color: #ffffff;
+  border: inline;
 }
 #topbox{
   border: solid;
   border-radius: 5px;
   float: top;
   border-color: #ffffff;
-  padding: 20px 50px;
+  padding: 20px 50px 20px 40px;
 }
