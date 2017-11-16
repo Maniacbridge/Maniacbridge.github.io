@@ -24,6 +24,8 @@ $(document).ready(function(){
   }
   
   
+  //testing yes and no here
+  
 
 });
 /* function hitrate(){
