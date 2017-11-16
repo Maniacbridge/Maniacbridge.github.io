@@ -1,23 +1,28 @@
 //ohmaniamnotgoodwithcomputerplztohelp
 $(document).ready(function(){
   //testing testing 1 2 1 2
-  console.log("hello world!")
+  console.log("hello world!");
+  
   //defining variables
   var hp;
   var atk;
   var spd;
   var def;
   var mdef;
-  var determine = 0;
+  var choice = false;
+  
+  //open game on asking your name
   naming();
   function naming(){
-    var name = prompt("What is your name?");
-    determine = 1;
+    topEdit("What is your name?")
     topEdit("So your name is " + name + "?");
   }
+  
+  //Writes text and determines position in game
   function topEdit(text) {
     document.getElementById("topbox").innerHTML = text;
   }
+  
   
 
 });
