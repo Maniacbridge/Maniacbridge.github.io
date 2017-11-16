@@ -18,7 +18,7 @@ body {
 }
 #topbox{
   position: fixed;
-  border: solid;
+  border: groove;
   border-radius: 5px;
   top: 0;
   border-color: #ffffff;
@@ -29,7 +29,7 @@ body {
   position: fixed;
   bottom: 0;
   left: 0;
-  border: solid;
+  border: groove;
   border-radius: 5px;
   border-color: #ffffff;
   width: 40%;
@@ -38,7 +38,7 @@ body {
   position: fixed;
   bottom: 0;
   right: 0;
-  border: solid;
+  border: groove;
   border-radius: 5px;
   border-color: #ffffff;
   width: 40%;
