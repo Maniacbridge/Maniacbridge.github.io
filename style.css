@@ -17,6 +17,7 @@ body {
   border: inline;
 }
 #topbox{
+  position: fixed;
   border: solid;
   border-radius: 5px;
   float: top;
@@ -25,6 +26,8 @@ body {
   width: 93%;
 }
 #name{
+  position: fixed;
+  bottom: 0;
   border: solid;
   border-radius: 5px;
   float: bottom;
