@@ -14,18 +14,21 @@ $(document).ready(function(){
   //open game on asking your name
   naming();
   function naming(){
-    topEdit("What is your name?")
-    topEdit("So your name is " + name + "?");
+    topEdit("What is your name?");
+    var name = document.getElementById("name").innerHTML;
   }
   
   //Writes text and determines position in game
   function topEdit(text) {
     document.getElementById("topbox").innerHTML = text;
+    yesNo();
   }
   
   
   //testing yes and no here
-  
+  function yesNo(){
+    
+  }
 
 });
 /* function hitrate(){

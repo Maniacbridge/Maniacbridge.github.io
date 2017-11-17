@@ -33,6 +33,7 @@ body {
   border-radius: 5px;
   border-color: #ffffff;
   width: 40%;
+  padding: 100px 0px 0px 50px;
 }
 #no{
   position: fixed;
@@ -42,4 +43,5 @@ body {
   border-radius: 5px;
   border-color: #ffffff;
   width: 40%;
+  padding: 100px 50px 0px 0px;
 }
