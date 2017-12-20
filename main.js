@@ -1,15 +1,16 @@
+//bearz
 Game = {};
-Game.start = function(){
-  Game.hp;
-  Game.atk;
-  Game.mag;
-  Game.spd;
-  Game.avo;
-  Game.def;
-  Game.res;
-  Game.topbox = function(){
-    var lol = prompt("this is a test");
-    document.getElementById("topbox").innerHTML = lol;
+Game.run = function(){
+  //variables
+  Game.bear = "";
+  
+  
+  
+  //choose your bear
+  Game.chooseBear = function(bear){
+    Game.bear = bear;
+    document.getElementById("top_box").innerHTML = bear;
+    
   }
 }
 //ohmaniamnotgoodwithcomputerplztohelp
