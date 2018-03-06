@@ -1,16 +1,7 @@
-//bearz
-Game = {};
-Game.run = function(){
-  //variables
-  Game.bear = "";
-  
-  
-  
-  //choose your bear
-  Game.chooseBear = function(bear){
-    Game.bear = bear;
-    document.getElementById("top_box").innerHTML = bear;
+//lets go chrome dome
+Game{}
+Game.start = function(){
+  Game.write = function(){
     
   }
 }
-//ohmaniamnotgoodwithcomputerplztohelp

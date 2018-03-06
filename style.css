@@ -10,49 +10,14 @@
   font-family: 'press_startregular';
 }
 
-body {
-  background-color: #000000;
-  width: 100%;
+#gametext{
+  font-size: 20px;
+  width: 500px;
+  height: 500px;
+  margin: 10px 5px 0px 5px;
+  animation: type 4s steps(60, end);
 }
 
-#topBox{
-  position: fixed;
-  border: groove;
-  border-radius: 5px;
-  top: 0;
-  border-color: #ffffff;
-  padding: 20px 20px 20px 50px;
-  width: 93%;
-  overflow: scroll;
+@keyframes type{
+  from { width: 0; }
 }
-
-/*
-.text {
-  color: #ffffff;
-}
-
-#yes{
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  border: groove;
-  border-radius: 5px;
-  border-color: #ffffff;
-  width: 40%;
-  padding: 100px 0px 0px 50px;
-}
-#no{
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  border: groove;
-  border-radius: 5px;
-  border-color: #ffffff;
-  width: 40%;
-  padding: 100px 50px 0px 0px;
-}
-.yesNo{
-  color: #ffffff;
-  text-align: center;
-  font-size: 50px;
-}*/
